@@ -15,6 +15,8 @@
 		D91965721CE268C700CCC7C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91965701CE268C700CCC7C5 /* LaunchScreen.storyboard */; };
 		D919657D1CE268C800CCC7C5 /* BoutTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D919657C1CE268C800CCC7C5 /* BoutTimeTests.swift */; };
 		D91965881CE268C800CCC7C5 /* BoutTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91965871CE268C800CCC7C5 /* BoutTimeUITests.swift */; };
+		D91965971CE2695600CCC7C5 /* CorrectDing.wav in Resources */ = {isa = PBXBuildFile; fileRef = D91965951CE2695600CCC7C5 /* CorrectDing.wav */; };
+		D91965981CE2695600CCC7C5 /* IncorrectBuzz.wav in Resources */ = {isa = PBXBuildFile; fileRef = D91965961CE2695600CCC7C5 /* IncorrectBuzz.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D91965831CE268C800CCC7C5 /* BoutTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoutTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D91965871CE268C800CCC7C5 /* BoutTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoutTimeUITests.swift; sourceTree = "<group>"; };
 		D91965891CE268C800CCC7C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D91965951CE2695600CCC7C5 /* CorrectDing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CorrectDing.wav; sourceTree = "<group>"; };
+		D91965961CE2695600CCC7C5 /* IncorrectBuzz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = IncorrectBuzz.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				D91965681CE268C700CCC7C5 /* Main.storyboard */,
 				D919656E1CE268C700CCC7C5 /* Assets.xcassets */,
 				D91965701CE268C700CCC7C5 /* LaunchScreen.storyboard */,
+				D91965951CE2695600CCC7C5 /* CorrectDing.wav */,
+				D91965961CE2695600CCC7C5 /* IncorrectBuzz.wav */,
 				D91965731CE268C700CCC7C5 /* Info.plist */,
 				D919656B1CE268C700CCC7C5 /* BoutTime.xcdatamodeld */,
 			);
@@ -233,8 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D91965721CE268C700CCC7C5 /* LaunchScreen.storyboard in Resources */,
+				D91965981CE2695600CCC7C5 /* IncorrectBuzz.wav in Resources */,
 				D919656F1CE268C700CCC7C5 /* Assets.xcassets in Resources */,
 				D919656A1CE268C700CCC7C5 /* Main.storyboard in Resources */,
+				D91965971CE2695600CCC7C5 /* CorrectDing.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
